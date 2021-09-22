@@ -35,8 +35,6 @@ func worker(id int) {
 	}
 
 	client.Stop()
-
-	time.Sleep(time.Second)
 }
 
 func main() {
