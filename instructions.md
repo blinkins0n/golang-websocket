@@ -1,3 +1,6 @@
-docker build -t my-greet-app .
-docker run -p 8080:80 -it my-greet-app
+docker build -f .\cmd\client\Dockerfile -t websocket-client .
+docker run -it websocket-client
+
+docker build -f .\cmd\server\Dockerfile -t websocket-server .
+docker run -p 8000:8000 -it websocket-server
 

@@ -10,7 +10,7 @@ import (
 )
 
 var N_MESSAGES = 5
-var N_CLIENTS = 5
+var N_CLIENTS = 1
 
 var addr = flag.String("addr", ":8000", "http service address")
 
